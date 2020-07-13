@@ -1,0 +1,25 @@
+Importar:
+	npm install
+	composer update
+
+Alguns Logins prontos, com alguns eventos cadastrados:
+	leonardo@mail.com - 123456
+	maria@mail.com - 123456
+	matheus@mail.com - 123456
+
+O usuário deve se cadastrar e realizar o login para poder controlar seus eventos
+
+O usuário pode cadastrar novos eventos e gerencia-los
+
+O usuário pode convidar outro usuário para participar do seu evento:
+	
+	caso o usuário convide outro usuário que não exista, uma mensagem é mostrada;
+	caso o usuário convide outro usuário que já esteja participando do evento, uma mensagem é mostrada;
+	quando o usuário é convidado para um evento, uma notificação é mostrada para o usuário;
+	
+	
+O usuário pode confirmar sua participação em um evento convidado ou não;
+	caso o usuário confirme a participação o evento é exibido em "Eventos confirmados";
+	em qualquer momento o usuário pode cancelar sua participação;
+
+O usuário caso ele exclua um evento em que possuem outros usuários confirmados, uma mensagem é exibida para os usuários confirmados;
